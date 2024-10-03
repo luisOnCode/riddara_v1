@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddara RD6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="../react/public/vite.svg" />
+</head>
+
+<body>
+    <div id="form">
+        <form>
+            <h1>Contate-nos</h1>
+            <div id="form-about-selection">
+                <button type="button" id="form-about-button">Motivo</button>
+                <div class="dropdown-content ">
+                    <button type="button">Motivo</button>
+                    <button type="button">Orçamento</button>
+                    <button type="button">Test-Drive</button>
+                    <button type="button">Mais Informações</button>
+                </div>
+            </div>
+            <input type="text" placeholder="Seu Nome" class="first-form-input">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Telefone">
+            <input type="text" placeholder="Cidade">
+            <textarea name="mensagem" placeholder="Nos envie sua mensagem"></textarea>
+            <button id="submit-button">Enviar</button>
+        </form>
+        <button id="quit-form">X</button>
+    </div>
+    <header>
+        <div id="header-main-div">
+            <nav id="header-menu">
+                <ul>
+                    <li id="contact">Contato</li>
+                </ul>
+            </nav>
+            <div id="header-logo-container">
+                <a id="header-logo-riddara" href="https://www.riddara.com/" target="_blank">
+                    <img src="../media/imgs/riddara/logo-white.png" alt="logo-riddara">
+                </a>
+            </div>
+        </div>
+    </header>   
+    <section id="banner-container">
+        <video autoplay loop muted>
+            <source src="../media/videos/banner-principal.webm" type="video/webm">
+        </video>
+        <div id="banner-text">
+            <img src="../media/imgs/rd6/logo.svg" alt="Riddara RD6">
+            <h2>Mais Que Uma Pickup.</h2>
+        </div>
+    </section>
+    <section id="side_by_side-container">
+        <div id="left-section" class="side_by_side-section">
+            <img src="../media/imgs/rd6/interior/interior-01.webp" alt="Interior-01">
+            <div>
+                <p class="text-left">Equipada com inteligência e conforto</p>
+            </div>
+        </div>
+        <div id="right-section" class="side_by_side-section">
+            <img src="../media/imgs/rd6/exterior/exterior-03.jpeg" alt="Exterior-03">
+            <div>
+                <p class="text-right">Design pensado na sua imaginação</p>
+            </div>
+        </div>
+    </section>
+    <section id="topics_01-section">
+        <div id="topic_01-div-left" class="topics_01-div">
+            <h2>100% Elétrica</h2>
+            <h3>Controle de Energia Variável</h3>
+            <div>
+                <h4>Aceleração Extrema</h4>
+                <p>0 a 100km/h em 7,3 segundos, para uma saída rápida</p>
+            </div>
+            <div>
+                <h4>Controle Inteligente</h4>
+                <p>Feito pela Geely Holding, um sistema de controle inteligente estável entrega uma experiência no
+                    volante de uma SUV 100% elétrica</p>
+            </div>
+        </div>
+        <div id="topic_01-div-center" class="topics_01-div">
+            <h2>Destaque das Principais Funções</h2>
+            <h3>Carga Inteligente</h3>
+            <p>6kW/200V de descarregamento em todos os cenários, ficando à frente nas categorias Pickup e SUV dessa
+                faixa de preço, permitindo o uso de funções elétrica a qualquer momento e em qualquer lugar.</p>
+        </div>
+        <div id="topic_01-div-right" class="topics_01-div">
+            <h2>Uma Pickup para Tudo</h2>
+            <h3>Confortável, Compatível & Segura</h3>
+            <div>
+                <h4>Design Refinado e Interna Espaçosa</h4>
+                <p>Sinta-se imerso em uma cabine moderna e acolchegante equipada com mais avançados recursos
+                    tecnológicos</p>
+            </div>
+            <div>
+                <h4>Pensada para a Segurança</h4>
+                <p>Proteção Multidimensional que te deixa livre de preocupações</p>
+            </div>
+        </div>
+    </section>
+    <section id="color_slider-section">
+        <div id="color_slider-left-content">
+            <div id="color_slider-car-div">
+                <img class="color_slider-car-side selected-car"
+                    src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-yellow.webp" alt="yellow">
+                <img class="color_slider-car-side" src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-white.webp"
+                    alt="white">
+                <img class="color_slider-car-side" src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-silver.webp"
+                    alt="silver">
+                <img class="color_slider-car-side" src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-grey.webp"
+                    alt="grey">
+                <img class="color_slider-car-side" src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-green.webp"
+                    alt="green">
+                <img class="color_slider-car-side" src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-blue.webp"
+                    alt="blue">
+                <img class="color_slider-car-side" src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-black.webp"
+                    alt="black">
+            </div>
+            <nav id="color_slider-color-nav">
+                <div class="color_slider-button selected-color" id="color_slider-button-yellow" data-name="0-yellow">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-white" data-name="1-white">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-silver" data-name="2-silver">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-grey" data-name="3-grey">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-green" data-name="4-green">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-blue" data-name="5-blue">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-black" data-name="6-black">
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+        <div id="color_slider-right-content">
+            <div id="colored-polygon" class="selected-polygon-color"></div>
+            <div id="color_slider-text-div">
+                <p class="color_slider-text selected-text">
+                    01. ADAPTÁVEL A DIVERSAS CONDIÇÕES DE CARGA E TERRENOS
+                </p>
+                <p class="color_slider-text">
+                    02. SUSPENÇÃO INDEPENDENTE MACPHERSON NA FRENTE E SUSPENÇÃO INDEPENDENTE MULTI-LINK NA TRAZEIRA
+                </p>
+                <p class="color_slider-text">
+                    03. CENTRO DE GRAVIDADE BAIXO COM UMA IMPRESSIONANTE DISTÂNCIA DO SOLO
+                </p>
+                <p class="color_slider-text">
+                    04. COMPRIMENTO TOTAL DE 5,26 METROS, TORNANDO AS CURVAS MAIS ÁGEIS E FÁCEIS
+                </p>
+                <p class="color_slider-text">
+                    05. COMPRIMENTO TOTAL DE 5,26 METROS, TORNANDO AS CURVAS MAIS ÁGEIS E FÁCEIS
+                </p>
+                <p class="color_slider-text">
+                    06. ASSISTENTE DE CONDUÇÃO COM FARÓIS ADB MATRIX LED
+                </p>
+                <p class="color_slider-text">
+                    07. PARA-CHOQUE DIANTEIRO, CAPÔ E LIMPADORES DESENVOLVIDOS VISANDO MAIOR SEGURANÇA
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="test_drive-section">
+        <div id="test_drive-button-div">
+            <button id="test_drive-button-01">
+                Agende agora o seu Test-Drive!
+            </button>
+            <button id="test_drive-button-02">
+                * Para mais informações, entre em contato clicando aqui
+            </button>
+        </div>
+        <div id="test_drive-img-div">
+            <img src="../media/imgs/rd6/colors/side/luxury/rd6-side-L-white.webp" alt="white">
+        </div>
+
+    </section>
+    <section id="make_your_deal-section">
+        <div>
+            <button id="make_your_deal">Faça seu Orçamento!</button>
+            <p>A melhor solução para conforto da família e trabalho pesado</p>
+        </div>
+        <img src="../media/imgs/rd6/exterior/exterior-04.webp" alt="">
+    </section>
+    <section id="safety-section">
+        <h2>Segurança 360°</h2>
+        <div id="safety-text-div">
+            <div>
+                <div class="safety-text-container safety-text-selected">
+                    <h3>Proteção Contra Impacto Lateral</h3>
+                    <p>Soleira de liga de alumínio de oito seções + tecnologia de conexão híbrida aço-alumínio</p>
+                    <p>Barreira deformável móvel + teste de impacto no pilar lateral</p>
+                </div>
+                <div class="safety-text-container">
+                    <h3>Estrutura da Carroceria</h3>
+                    <p>66% de aço de alta resistência</p>
+                    <p>Resistência à torção de 30.300 N·m</p>
+                    <p>Rigidez excepcional da estrutura interna integrada</p>
+                </div>
+                <div class="safety-text-container">
+                    <h3>Sistema de Frenagem de Alta Eficiência</h3>
+                    <p>Quatro discos de freio ventilados</p>
+                    <p>Taxa de aceleração de pressão de frenagem ultrarrápida de 150ms, três vezes mais rápida que
+                        frenagem
+                        hidráulica convencional</p>
+                    <p>Frenagem assistida por energia</p>
+                </div>
+            </div>
+            <div id="safety-nav-button">
+                <button class="safety-button" id="safety-left-button">v</button>
+                <button class="safety-button" id="safety-right-button">v</button>
+            </div>
+        </div>
+        <div id="safety-imgs-div">
+            <img src="../media/imgs/rd6/colors/angled/standard/rd6-angled-S-white-adj.png" alt="white"
+                class="car-angled-color car-angled-color-selected">
+            <img src="../media/imgs/rd6/colors/angled/standard/rd6-angled-S-black-adj.png" alt="black" class="car-angled-color"> 
+            <img src="../media/imgs/rd6/colors/angled/standard/rd6-angled-S-blue-adj.png" alt="blue" class="car-angled-color">
+        </div>
+    </section>
+    <footer>
+        <div id="footer-button-div">
+            <button id="make_your_deal_footer">Peça seu Orçamento!</button>
+            <button id="test-driver_footer">Marque seu Test-Drive!</button>
+        </div>
+        <div id="footer-informations">
+            <p id="footer-last-link">Desenvolvido por <span>Luis Guilherme Lima</span></p>
+            <div id="social-media-content">
+                <a class="breakdance-link bde-social-icons__icon-wrapper bde-social-icons__icon-linkedin"
+                    href="https://www.linkedin.com/in/luis-guilherme-lima-8486a4120/" target="_blank" data-type="url">
+
+                    <!--a href="" class="bde-social-icons__icon-wrapper bde-social-icons__icon-linkedin" -->
+                    <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" width="2vw" viewBox="-4 -2 32 32">
+                        <path
+                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="breakdance-link bde-social-icons__icon-wrapper bde-social-icons__icon-youtube"
+                    href="https://github.com/GuiLima22" target="_blank" data-type="url">
+
+                    <!--a href="" class="bde-social-icons__icon-wrapper bde-social-icons__icon-youtube" -->
+                    <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" width="2vw" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="funcionalidades.js"></script>
+</body>
+
+</html>

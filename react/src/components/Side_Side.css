@@ -1,0 +1,50 @@
+#side_by_side-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+.side_by_side-section {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side_by_side-section img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    opacity: 0.6;
+}
+
+.side_by_side-section div {
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    border: 2px solid var(--mixed-white);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.side_by_side-section div p {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    color: rgba(255, 255, 255, 0.7);
+    width: 45%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.text-left {
+    left: 5%;
+}
+
+.text-right {
+    right: 5%;
+    text-align: right;
+}
